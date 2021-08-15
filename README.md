@@ -34,6 +34,4 @@ pic.egirl((data) => console.log(data))
 
 ```
 
-## Inline code
-
 Under `MIT License`.
