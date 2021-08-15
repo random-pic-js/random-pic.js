@@ -2,7 +2,7 @@
   "name": "random-pic.js",
   "version": "0.0.2",
   "description": "get random gif/image urls",
-  "main": "index.js",
+  "main": "./src/random-pic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
