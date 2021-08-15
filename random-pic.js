@@ -1,69 +1,67 @@
 const fetch = require('node-fetch');
 
-const help = () => {
-    fetch('http://localhost:3000')
-        .then(res => res.json())
-        .then(json => console.log(json.available_urls));
+const help = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co');
+    const data = await res.json();
+    console.log(data.urls[Math.floor(Math.random() * data.urls.length)])
 }
 
-const animal = () => {
-    fetch('http://localhost:3000/animal.json')
-        .then(res => res.json())
-        .then(json => console.log(json.animal[Math.floor(Math.random() * json.animal.length)]));
+const animal = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/animal.json');
+    const data = await res.json();
+    console.log(data.animal[Math.floor(Math.random() * data.animal.length)])
 }
 
-const anime = () => {
-    fetch('http://localhost:3000/anime.json')
-        .then(res => res.json())
-        .then(json => console.log(json.anime[Math.floor(Math.random() * json.anime.length)]));
+const anime = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/anime.json');
+    const data = await res.json();
+    console.log(data.anime[Math.floor(Math.random() * data.anime.length)])
 }
 
-const boy = () => {
-    fetch('http://localhost:3000/boy.json')
-        .then(res => res.json())
-        .then(json => console.log(json.boy[Math.floor(Math.random() * json.boy.length)]));
+const boy = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/boy.json');
+    const data = await res.json();
+    console.log(data.boy[Math.floor(Math.random() * data.boy.length)])
 }
 
-const couple = () => {
-    fetch('http://localhost:3000/couple.json')
-        .then(res => res.json())
-        .then(json => console.log(json.couple[Math.floor(Math.random() * json.couple.length)]));
+const girl = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/girl.json');
+    const data = await res.json();
+    console.log(data.girl[Math.floor(Math.random() * data.girl.length)])
 }
 
-const eboy = () => {
-    fetch('http://localhost:3000/eboy.json')
-        .then(res => res.json())
-        .then(json => console.log(json.eboy[Math.floor(Math.random() * json.eboy.length)]));
+const couple = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/couple.json');
+    const data = await res.json();
+    console.log(data.couple[Math.floor(Math.random() * data.couple.length)])
 }
 
-const egirl = () => {
-    fetch('http://localhost:3000/egirl.json')
-        .then(res => res.json())
-        .then(json => console.log(json.egirl[Math.floor(Math.random() * json.egirl.length)]));
+const eboy = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/eboy.json');
+    const data = await res.json();
+    console.log(data.eboy[Math.floor(Math.random() * data.eboy.length)])
 }
 
-const girl = () => {
-    fetch('http://localhost:3000/girl.json')
-        .then(res => res.json())
-        .then(json => console.log(json.girl[Math.floor(Math.random() * json.girl.length)]));
+const egirl = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/egirl.json');
+    const data = await res.json();
+    console.log(data.egirl[Math.floor(Math.random() * data.egirl.length)])
 }
 
-const landscape = () => {
-    fetch('http://localhost:3000/landscape.json')
-        .then(res => res.json())
-        .then(json => console.log(json.landscape[Math.floor(Math.random() * json.landscape.length)]));
+const landscape = async function request() {
+    const res = await fetch('https://api.hadiazari.repl.co/landscape.json');
+    const data = await res.json();
+    console.log(data.landscape[Math.floor(Math.random() * data.landscape.length)])
 }
-
-
 
 exports.help = help;
 exports.animal = animal;
 exports.anime = anime;
 exports.boy = boy;
+exports.girl = girl;
 exports.couple = couple;
 exports.eboy = eboy;
 exports.egirl = egirl;
-exports.girl = girl;
 exports.landscape = landscape;
 
 
