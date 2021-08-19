@@ -1,6 +1,6 @@
 {
   "name": "random-pic.js",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "get random gif/image urls",
   "main": "./src/random-pic.js",
   "scripts": {
