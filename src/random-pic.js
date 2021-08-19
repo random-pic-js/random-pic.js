@@ -1,4 +1,13 @@
 const fetch = require('node-fetch');
+const insver = require('../package.json').version;
+const chalk = require('chalk');
+const request = require('request')
+
+request({ url: 'https://api.hadiazari.repl.co/config.json', json: true }, function (error, response, body) {
+    if (body.VER > insver) {
+        return console.log(chalk.yellowBright('\n\nYou are using the outdated version\n') + chalk.red('Installed Version : ' + insver + '\nLatest Version : ' + body.VER) + chalk.blue('\nUse npm i random-pic.js for update\n\n'));
+    }
+});
 
 const animal = async function () {
     const res = await fetch('https://api.hadiazari.repl.co/animal.json');
@@ -56,7 +65,3 @@ exports.couple = couple;
 exports.eboy = eboy;
 exports.egirl = egirl;
 exports.landscape = landscape;
-
-
-
-

@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/hadiazt/random-pic.js/issues"
   },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "chalk": "^4.1.2"
+  },
   "homepage": "https://github.com/hadiazt/random-pic.js#readme"
 }

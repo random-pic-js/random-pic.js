@@ -1,6 +1,6 @@
 <center><h1 style="text-align:center">Welcome To <a href="https://www.npmjs.com/package/random-pic.js">random-pic.js</a> Repository </h1></center>
 
-<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5>
+<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5><h6 style="text-align:center;">last update 2021-08-19 </h6>
 
 
 <h1 style="text-align:center;padding-top:50px;"> Available Funcitons</h1>
