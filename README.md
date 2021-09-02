@@ -15,7 +15,7 @@
 
 
 <h3> Pictures :</h3>
-
+This is old EX See The Code Below
 <img src="https://cdn.discordapp.com/attachments/802560816426516531/876412446817001483/unknown.png" style="border-radius: 10px;" alt="Example"
 />
 
@@ -30,7 +30,7 @@
 const pic = require('random-pic.js')
 
 
-pic.egirl((data) => console.log(data))
+pic.egirl()
 
 ```
 

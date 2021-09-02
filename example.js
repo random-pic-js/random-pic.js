@@ -2,13 +2,13 @@ const pic = require('random-pic.js') // npm install random-pic.js
 
 
 
-pic.animal((data) => console.log(data))
-// pic.anime((data) => console.log(data))
-// pic.boy((data) => console.log(data))
-// pic.girl((data) => console.log(data))
-// pic.couple((data) => console.log(data))
-// pic.eboy((data) => console.log(data))
-// pic.egirl((data) => console.log(data))
-// pic.landscape((data) => console.log(data))
+pic.animal()
+// pic.anime()
+// pic.boy()
+// pic.girl()
+// pic.couple()
+// pic.eboy()
+// pic.egirl()
+// pic.landscape()
 
 
