@@ -2,7 +2,7 @@ const pic = require('random-pic.js') // npm install random-pic.js
 
 
 
-pic.animal()
+// pic.animal()
 // pic.anime()
 // pic.boy()
 // pic.girl()
@@ -10,5 +10,7 @@ pic.animal()
 // pic.eboy()
 // pic.egirl()
 // pic.landscape()
+pic.random()
+
 
 

@@ -1,12 +1,12 @@
 <center><h1 style="text-align:center">Welcome To <a href="https://www.npmjs.com/package/random-pic.js">random-pic.js</a> Repository </h1></center>
 
-<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5><h6 style="text-align:center;">last update 2021-09-02</h6>
+<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5><h6 style="text-align:center;">last update 2021-09-05 (added random function)</h6>
 
 
 <h1 style="text-align:center;padding-top:50px;"> Available Funcitons</h1>
 
-| animal  | anime |couple |landscape|
-| :-------------: |:-------------:|:-------------:|:-------------:|
+| animal  | anime |couple |landscape|random|
+|:-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | boy| eboy     |girl |egirl|
 
 <h6> If You Have An Idea For Adding Some Thing Feel Free By Telling Us In <a href="https://discord.gg/6WtJZAWEfR">Discord 1</a> &  <a href="https://discord.gg/nJUAbk5eeu">Discord 2</a></h67>
@@ -27,10 +27,23 @@ This is old EX See The Code Below
 
 
 ```javascript   
-const pic = require('random-pic.js')
+const pic = require('random-pic.js') // npm install random-pic.js
 
 
-pic.egirl()
+
+pic.animal()
+// pic.anime()
+// pic.boy()
+// pic.girl()
+// pic.couple()
+// pic.eboy()
+// pic.egirl()
+// pic.landscape()
+// pic.random()
+
+
+
+
 
 ```
 
