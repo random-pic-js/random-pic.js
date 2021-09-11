@@ -1,6 +1,6 @@
 <center><h1 style="text-align:center">Welcome To <a href="https://www.npmjs.com/package/random-pic.js">random-pic.js</a> Repository </h1></center>
 
-<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5><h6 style="text-align:center;">last update 2021-09-05 (added random function)</h6>
+<h5 style="text-align:center;color:magenta;">You Can Get Random Gif/Pictures URSL With This Module</h5><h6 style="text-align:center;">last update 2021-09-12 (added random function)</h6>
 
 
 <h1 style="text-align:center;padding-top:50px;"> Available Funcitons</h1>
@@ -9,18 +9,9 @@
 |:-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | boy| eboy     |girl |egirl|
 
-<h6> If You Have An Idea For Adding Some Thing Feel Free By Telling Us In <a href="https://discord.gg/6WtJZAWEfR">Discord 1</a> &  <a href="https://discord.gg/nJUAbk5eeu">Discord 2</a></h67>
+<h6> If You Have An Idea For Adding Some Thing Feel Free By Telling Us In <a href="https://discord.gg/6vhPVYkNU9">Discord 1</a> &  <a href="https://discord.gg/nJUAbk5eeu">Discord 2</a></h67>
 
 <h1 style="text-align:center;padding-top:50px;"> Examples </h1>
-
-
-<h3> Pictures :</h3>
-This is old EX See The Code Below
-<img src="https://cdn.discordapp.com/attachments/802560816426516531/876412446817001483/unknown.png" style="border-radius: 10px;" alt="Example"
-/>
-
-<img src="https://cdn.discordapp.com/attachments/802560816426516531/876410659821211688/unknown.png" style="border-radius: 10px;" alt="output"
-/>
 
 
 <h3> Code :</h3>
@@ -31,19 +22,30 @@ const pic = require('random-pic.js') // npm install random-pic.js
 
 
 
-pic.animal()
-// pic.anime()
-// pic.boy()
-// pic.girl()
-// pic.couple()
-// pic.eboy()
-// pic.egirl()
-// pic.landscape()
-// pic.random()
+// do every thing with response
 
 
+pic.animal().then((response) => { console.log(response) })
+// pic.anime().then((response) => { response })
+// pic.boy().then((response) => { response })
+// pic.girl().then((response) => { response })
+// pic.couple().then((response) => { response })
+// pic.eboy().then((response) => { response })
+// pic.egirl().then((response) => { response })
+// pic.landscape().then((response) => { response })
+// pic.random().then((response) => { response })
+```
 
+<h3> using for Discord Bot ?! </h3>
 
+```javascript
+// 
+
+// pic.random().then((response) => { 
+//
+// message.chammel.send(response)
+// 
+//  })
 
 ```
 
