@@ -39,13 +39,13 @@ pic.animal().then((response) => { console.log(response) })
 <h3> using for Discord Bot ?! </h3>
 
 ```javascript
-// 
 
-// pic.random().then((response) => { 
-//
-// message.chammel.send(response)
-// 
-//  })
+
+pic.random().then((response) => { 
+
+message.channel.send(response)
+
+ })
 
 ```
 
