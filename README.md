@@ -49,4 +49,6 @@ message.channel.send(response)
 
 ```
 
+<h3>Package is Returning a Promise, which mean you have to handle any errors which might or might not happen.</h3>
+
 Under `MIT License`.
